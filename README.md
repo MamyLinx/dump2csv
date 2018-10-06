@@ -1,5 +1,7 @@
 # dump2csv
-A command line to convert mysqldump file to csv and sql file
+A command line to convert mysqldump file to csv and sql file.
+## Summary
+This command line is written with bash script and use `awk`,a universally available text processing tool on any linux environment, to parse mysql-dump file.
 ## Usage
 ```command
 dump2csv -s <dump filename>
